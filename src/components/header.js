@@ -22,7 +22,11 @@ const headerAppender = (selector) => {
         const head_append = document.querySelector(`${selector}`);
         return head_append.appendChild(Header("SPRINT!!!", "Today", "Hot as HELL!!"));
 }
+
 export { Header, headerAppender }
+
+
+
 // TASK 1
 // ---------------------
 // Implement this function taking `title`, `date` and `temp` as its 3 args and returning the markup below.
